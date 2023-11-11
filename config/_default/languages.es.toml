@@ -16,7 +16,7 @@ title = "Raúl Coterillo"
 [author]
   name = "Raúl Coterillo"
   image = "img/profile.jpeg"
-  headline = "Doctorando en neurociencia computacional"
+  headline = "Estudiante de doctorado :books: <br> Física :atom: • ML :laptop: • Neurociencia :brain:"
   # bio = "Algo sobre mi"
   links = [
       { email = "mailto:raulcote98@mailbox.org" },
