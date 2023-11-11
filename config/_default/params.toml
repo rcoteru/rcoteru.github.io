@@ -17,7 +17,7 @@ enableCodeCopy = true
 
 disableImageOptimization = true
 
-defaultBackgroundImage = "img/20231105-LagoPehoe_ES-ES5224775398_UHD.jpg" # used as default for background images 
+# defaultBackgroundImage = "img/20231105-LagoPehoe_ES-ES5224775398_UHD.jpg" # used as default for background images 
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
@@ -35,8 +35,8 @@ defaultBackgroundImage = "img/20231105-LagoPehoe_ES-ES5224775398_UHD.jpg" # used
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
+  layout = "hero" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "img/20231105-LagoPehoe_ES-ES5224775398_UHD.jpg" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
   showMoreLink = false
@@ -58,7 +58,7 @@ defaultBackgroundImage = "img/20231105-LagoPehoe_ES-ES5224775398_UHD.jpg" # used
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  editURL = "https://github.com/rcoteru/rcoteru.github.io/"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
