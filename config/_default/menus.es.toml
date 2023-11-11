@@ -10,25 +10,32 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+
 [[main]]
-    name = "Sobre mi"
-    pageRef = "about"
+    pre = "rss"
+    name = "Blog"
     weight = 10
 
-[[main]]
-    name = "Blog"
-    pageRef = "blogs"
-    weight = 20
+#[[main]]
+#    pre = "graduation-cap"
+#    name = "Ciencia"
+#    parent = "Blog"
+#    pageRef = "/categories/science/"
+#    weight = 10
 
-[[main]]
-    name = "Ciencia"
-    pageRef = "blogs"
-    weight = 30
+#[[main]]
+#    pre = "heart"
+#    name = "Personal"
+#    parent = "Blog"
+#    pageRef = "/categories/personal"
+#    weight = 15
 
-[[main]]
-    name = "Decoherencia Crónica"
-    pageRef = "writing"
-    weight = 40
+#[[main]]
+#    pre = "lightbulb"
+#    parent = "Blog"
+#    name = "Decoherencia Crónica"
+#    pageRef = "/categories/writing"
+#    weight = 20
 
 #[[main]]
 #  name = "Parent"

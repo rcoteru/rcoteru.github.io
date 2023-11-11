@@ -1,10 +1,10 @@
 languageCode = "es"
 languageName = "Castellano"
-weight = 20
+weight = 10
 title = "Raúl Coterillo"
 
 [params]
-  displayName = "ES"
+  displayName = "🇪🇸 Castellano"
   isoCode = "es-ES"
   rtl = false
   dateFormat = "2 January 2006"
@@ -15,9 +15,9 @@ title = "Raúl Coterillo"
 
 [author]
   name = "Raúl Coterillo"
-  image = "img/blowfish_logo.png"
-  headline = "Doctorado en Neurociencia Computacional"
-  bio = "Algo sobre mi"
+  image = "img/profile.jpeg"
+  headline = "Doctorando en neurociencia computacional"
+  # bio = "Algo sobre mi"
   links = [
       { email = "mailto:raulcote98@mailbox.org" },
       { x-twitter = "https://twitter.com/rcoteru" },

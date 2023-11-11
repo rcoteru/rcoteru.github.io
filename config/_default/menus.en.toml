@@ -11,19 +11,23 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-    name = "About"
-    pageRef = "about"
+    pre = "rss"
+    name = "Blog"
     weight = 10
 
 [[main]]
-    name = "Blog"
-    pageRef = "blogs"
-    weight = 20
+#    pre = "graduation-cap"
+#    name = "Science"
+#    parent = "Blog"
+#    pageRef = "categories/science"
+#    weight = 10
 
-[[main]]
-    name = "Science"
-    pageRef = "science"
-    weight = 30
+#[[main]]
+#    pre = "heart"
+#    name = "Personal"
+#    parent = "Blog"
+#    pageRef = "categories/personal"
+#    weight = 15
 
 #[[main]]
 #    name = "Decoherencia Crónica"
