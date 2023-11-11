@@ -11,9 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-    name = "Blog"
-    pageRef = "posts"
+    name = "About"
+    pageRef = "about"
     weight = 10
+
+[[main]]
+    name = "Blog"
+    pageRef = "blogs"
+    weight = 20
+
+[[main]]
+    name = "Science"
+    pageRef = "science"
+    weight = 30
+
+#[[main]]
+#    name = "Decoherencia Crónica"
+#    pageRef = "writing:es"
+#    weight = 40
 
 #[[main]]
 #  name = "Parent"
